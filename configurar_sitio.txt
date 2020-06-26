@@ -1,0 +1,16 @@
+Para que el programa funcione:
+- deben de copiar las carpetas compile-conjunto, config_conjunto y tpl-conjunto en la ruta C:\xampp.
+- deben de copiar las carpetas in-mi y mi_proyecto en la ruta :  C:\xampp\htdocs.
+- deben crear la base de datos con el nombre de mi_proyecto.
+- deben de importar en phpmyadmin la base de datos que está en la ruta: C:\xampp\htdocs\mi_proyecto\sql el
+
+archivo se llama sql_prueba.
+
+Ingresar hay 2 formas:
+#1.
+http://localhost/in-mi/ ir a este link y colocar el usuario: admin@conjuntoseguro.com clave 123
+#2.
+http://localhost/mi_proyecto/ ir a este link y dar click donde dice Conjuntos Residenciales V.6 y colocar el
+
+usuario: admin@conjuntoseguro.com clave: 123 // usuario Administrador ve todo
+usuario Prueba: pruebas@gmail.com clave Pruebas123

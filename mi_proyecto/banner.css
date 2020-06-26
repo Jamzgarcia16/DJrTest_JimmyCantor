@@ -1,0 +1,64 @@
+#banner{
+	margin-top: 1px;
+	padding-top:20px;
+	width : 1100px;
+	height: 481px;
+	float: left;
+	background-color: white;
+}
+.slider {
+
+
+	width: 1100px;
+	height: 480px;	
+
+	position: absolute;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.0);
+	-o-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	
+
+}
+
+#animacion-a{
+
+	animation: slider-a 9s ease 3s infinite;
+	-moz-animation: slider-a 9s ease 3s infinite;
+	-webkit-animation: slider-a 9s ease 3s infinite;
+	-o-animation: slider-a 9s ease 3s infinite;
+}
+
+	@keyframes slider-a{
+		0%{opacity: 1}
+		33%{opacity: 1}
+		66%{opacity: 1}
+		100%{opacity: 0}
+	}
+
+#animacion-b{
+	animation: slider-b 9s ease 3s infinite;
+	-moz-animation: slider-b 9s ease 3s infinite;
+	-webkit-animation: slider-b 9s ease 3s infinite;
+	-o-animation: slider-b 9s ease 3s infinite;
+}
+
+	@keyframes slider-b{
+		0%{opacity: 1}
+		33%{opacity: 1}
+		66%{opacity: 0}
+		100%{opacity: 1}
+	}
+#animacion-c{
+	animation: slider-c 9s ease 3s infinite;
+	-moz-animation: slider-c 9s ease 3s infinite;
+	-webkit-animation: slider-c 9s ease 3s infinite;
+	-o-animation: slider-c 9s ease 3s infinite;
+}
+
+	@keyframes slider-c{
+		0%{opacity: 1}
+		33%{opacity: 0}
+		66%{opacity: 0}
+		100%{opacity: 1}
+}
